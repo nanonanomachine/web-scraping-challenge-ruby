@@ -4,8 +4,6 @@ Bundler.require
 
 require 'open-uri'
 
-doc = Nokogiri::HTML(open('https://scrapingclub.com/exercise/list_basic/'))
-
 class CrawlerCSS
   attr_reader :results
 
